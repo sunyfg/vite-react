@@ -7,7 +7,8 @@
     "build": "tsc && vite build",
     "build:test": "tsc && vite build --mode test",
     "build:release": "tsc && vite build --mode release",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --ext tsx src/"
   },
   "dependencies": {
     "react": "^17.0.2",
